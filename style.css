@@ -1,0 +1,73 @@
+/* Reset some default styles */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the navigation bar */
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+nav {
+  padding: 15px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Style the main content area */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Positioning properties */
+ul {
+  /* Using display: inline; to create a horizontal navigation bar */
+  display: inline;
+}
+
+ul li {
+  /* Using float: left; to make list items appear side by side */
+  float: left;
+}
+
+nav {
+  /* Using position: relative; for positioning within the header */
+  position: relative;
+}
+
+header {
+  /* Using position: fixed; to make the header fixed at the top */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+main {
+  /* Using margin-top to create space below the fixed header */
+  margin-top: 80px;
+}
+
+/* Additional styles */
+main {
+  font-size: 18px;
+}
+
+/* Add more styles as needed */
